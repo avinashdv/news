@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import classes from "./App.module.css";
 
 import Tag from "./UI/Tag";
@@ -94,7 +94,6 @@ function App() {
   const searchInputHandler = () => {
     const searchTerm = searchRef.current.value;
     const filteredArticles = articles.filter((article) => {
-      console.log("....", article);
       if (
         (article.title && article.title.includes(searchTerm)) ||
         (article.author && article.author.includes(searchTerm)) ||
