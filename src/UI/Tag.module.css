@@ -1,0 +1,17 @@
+.key {
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  background-color: #eaeaea;
+  color: #7e7e7e;
+  padding: 7px 17px;
+  border-radius: 20px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .key {
+    font-size: 12px;
+  }
+}

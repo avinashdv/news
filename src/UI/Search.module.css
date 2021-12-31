@@ -1,0 +1,12 @@
+.i-search {
+  width: 13.5px;
+  height: 13.5px;
+  color: #7e7e7e;
+  margin-right: 10px;
+}
+
+.search-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
